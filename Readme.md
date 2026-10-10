@@ -1,4 +1,4 @@
-# Alex Morgan Photography
+# Ray G Photography
 
 A simple, responsive portfolio page for landscape photography. The site includes a short introduction, a selected-work gallery, an about section, and an email contact link.
 
