@@ -1,4 +1,5 @@
 :root {
+	/* Core color palette for the portfolio */
 	color-scheme: light;
 	--ink: #222;
 	--muted: #707070;
@@ -14,6 +15,7 @@ html {
 }
 
 body {
+	/* Minimal, neutral base styling for the page */
 	margin: 0;
 	background: #fff;
 	color: var(--ink);
@@ -26,6 +28,7 @@ a {
 	text-decoration: none;
 }
 
+/* Header and footer layout */
 .site-header,
 .site-footer {
 	display: flex;
@@ -54,11 +57,13 @@ a {
 .intro,
 .work,
 .about {
+	/* Restrict content width and center the page sections */
 	width: min(100% - 48px, 1080px);
 	margin: 0 auto;
 }
 
 .intro {
+	/* Spacious intro layout to emphasize the title */
 	padding: 76px 0 48px;
 }
 
@@ -98,6 +103,7 @@ a {
 }
 
 .gallery {
+	/* Three-column image grid for the selected work section */
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 24px;
@@ -147,6 +153,7 @@ a {
 }
 
 @media (max-width: 700px) {
+	/* Adjust layout for smaller tablets and phones */
 	.site-header,
 	.site-footer {
 		padding-right: 24px;
